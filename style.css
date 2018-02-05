@@ -1,0 +1,42 @@
+body, html {
+			height: 100%;
+		   }
+		   
+.defilement {			/*Permet le défilement de la page*/
+			background-image: url("../background/stars.jpg");
+			height: 100%;
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+					
+		  }
+/*.whitetxt { color: white;}*/
+
+.formtxt { 			/*style appliqué au texte de la balise form*/
+		  color: white;
+		  margin-top: 5%;
+		  font-family: Elephant;
+		  font-size: 18px;
+		 }
+.bodytxt { 			/*style appliqué au texte de la balise body*/
+		  color: white;
+		  margin-top: 20%;
+		  font-family: Elephant;
+		  font-size: 18px;
+		 }
+.navbar {
+		/* padding-left:0; */
+		 overflow: hidden;
+		 background-color: black;
+		 position: fixed;
+		 top: 0px;
+		 width: 100%;
+		 height: 3%;
+		 color: white;
+		 text-align: center;
+		 font-family: Elephant;	 
+		}
+.cachelien{text-decoration: none;
+		   color: white;
+		  }
